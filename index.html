@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Разработка</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="owl/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owl/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="owl/owl.carousel.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__feedback-holder">
+      <form action="" class="back-call" id="back-call">
+        <label for="back-call__name">Имя</label>
+        <input type="text" name="name" class="back-call__name" id="back-call__name">
+        <label for="back-call__tel">Телефон</label>
+        <input type="tel" name="tel" class="back-call__tel" id="back-call__tel" value="+7">
+        <label for="back-call__email" class="back-call__email-label">E-mail</label>
+        <input type="email" name="email" class="back-call__email" id="back-call__email">
+        <button form="back-call" type="submit" class="back-call__button">Отправить</button>
+      </form>
+    </div>
+    <div class="fixed-container">
+      <button class="header__mobmenu-button"></button>
+      <nav>
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="#" class="header__menu-link link-skills">Услуги</a></li>
+          <li class="header__menu-item"><a href="#" class="header__menu-link link-product">Портфолио</a></li>
+          <li class="header__menu-item"><a href="#" class="header__menu-link link-price">Стоимость</a></li>
+        </ul>
+      </nav>
+      <div class="header__popup-menu">
+        <nav>
+          <ul class="header__popup-menu-list">
+            <li class="header__popup-menu-item"><a href="#" class="header__popup-menu-link link-skills">Услуги</a></li>
+            <li class="header__popup-menu-item"><a href="#" class="header__popup-menu-link link-product">Портфолио</a></li>
+            <li class="header__popup-menu-item"><a href="#" class="header__popup-menu-link link-price">Стоимость</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__feedback">
+        <a href="tel:+74999955577" class="header__feedback-phone">+7 (499) 995-55-77</a>
+        <button class="header__feedback-button">Заказать звонок</button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="about-worker">
+      <span class="about-worker__background-symbol">{ }</span>
+      <span class="about-worker__background-symbol">#</span>
+      <span class="about-worker__background-symbol">&lt;/&gt;</span>
+      <span class="about-worker__background-symbol">&lt;div&gt;</span>
+      <span class="about-worker__background-symbol">&lt;div&gt;</span>
+      <span class="about-worker__background-symbol">&lt;/&gt;</span>
+      <div class="about-worker__face">
+      <img class="about-worker__face-pic" src="img/worker.png" alt="Работник">
+        <img class="about-worker__mobface-pic" src="img/mob_worker.png" alt="Работник для мобильной версии">
+      </div>
+      <div class="fixed-container">
+        <article class="about-worker__id">
+          <h2 class="about-worker__name">Дмитрий Алексеев</h2>
+          <p class="about-worker__skill">Frontend-разработчик и веб-верстальщик</p>
+          <aside>
+            <button class="about-worker__button">Узнать больше</button>
+          </aside>
+        </article>
+      </div>
+    </section>
+    <section class="about-skills">
+      <div class="fixed-container">
+        <h2 class="about-skills__tittle">Что я делаю</h2>
+        <ul class="about-skills__list">
+          <li class="about-skills__landing"><span class="about-skills__landing-icon"></span>
+            <p class="about-skills__landing-text">Вёрстка лендинг–страниц и&nbsp;сайтов любой сложности</p>
+          </li>
+          <li class="about-skills__adapt"><span class="about-skills__adapt-icon"></span>
+            <p class="about-skills__adapt-text">Адаптивная вёрстка под все браузеры и устройства</p>
+          </li>
+          <li class="about-skills__frontend"><span class="about-skills__frontend-icon"></span>
+            <p class="about-skills__frontend-text">Frontend – разработка и&nbsp;программирование</p>
+          </li>
+          <li class="about-skills__reboot"><span class="about-skills__reboot-icon"></span>
+            <p class="about-skills__reboot-text">Исправление и доработка существующей вёрстки</p>
+          </li>
+        </ul>
+        <button class="about-skills__button">Узнать стоимость</button>
+      </div>
+    </section>
+    <section class="about-product">
+      <div class="fixed-container">
+        <h2 class="about-product__tittle">Примеры моих работ</h2>
+        <div id="js-carousel-1" class="owl-carousel owl-theme">
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+          <div class="carousel-item"></div>
+        </div>
+        <button class="about-product__button">Заказать проект</button>
+      </div>
+    </section>
+    <section class="about-price">
+      <span class="about-price__background-symbol">{ }</span>
+      <span class="about-price__background-symbol">#</span>
+      <span class="about-price__background-symbol">&lt;/&gt;</span>
+      <span class="about-price__background-symbol">{ }</span>
+      <span class="about-price__background-symbol">&lt;div&gt;</span>
+      <div class="fixed-container">
+        <h2 class="about-price__tittle">Адаптивная вёрстка под все устройства и&nbsp;браузеры от 1000 рублей всего за&nbsp;4&nbsp;часа.*</h2>
+        <span class="about-price__star">*</span>
+        <p class="about-price__text">Срок и стоимость могут отличаться от&nbsp;заявленных и рассчитываются индивидуально,<br> в зависимости
+          от&nbsp;сложности задач.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-stuff">
+      <div class="fixed-container">
+        <nav>
+          <ul class="footer-stuff__menu">
+            <li class="footer-stuff__item"><a href="#" class="footer-stuff__link link-skills">Услуги</a></li>
+            <li class="footer-stuff__item"><a href="#" class="footer-stuff__link link-product">Портфолио</a></li>
+            <li class="footer-stuff__item"><a href="#" class="footer-stuff__link link-price">Стоимость</a></li>
+          </ul>
+        </nav>
+        <address>
+          <div class="footer-stuff__phone"><i class="footer-stuff__phone-icon">&#xe801;</i>
+            <a href="tel:+74999957755" class="footer-stuff__phone-nubmer">+7 (499) 995-77-55</a>
+          </div>
+          <div class="footer-stuff__mail"><i class="footer-stuff__mail-icon">&#xe800;</i>
+            <a href="mailto:dmitry@alekseev.com" class="footer-stuff__mail-link">dmitry@alekseev.com</a></div>
+        </address>
+        <div class="footer-stuff__feedback">
+          <button class="footer-stuff__feedback-button">Заказать звонок</button>
+          <div class="footer-stuff__social-network social-network">
+            <ul class="social-network__list">
+              <li class="social-network__item"><a class="social-network__vk" href="#"></a></li>
+              <li class="social-network__item"><a class="social-network__fb" href="#"></a></li>
+              <li class="social-network__item"><a class="social-network__tw" href="#"></a></li>
+              <li class="social-network__item"><a class="social-network__insta" href="#"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="fixed-container">
+        &copy; Дмитрий Алексеев, 2016 – 2018
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,569 @@
+@media (max-width: 1470px) {
+    .about-worker {
+    &__face {
+    &-pic {
+        margin-left: 240px;
+    }
+    }
+    }
+    .about-price {
+    &__background-symbol {
+    &:nth-child(2) {
+        top: 275px;
+    }
+    &:nth-child(3) {
+        font-size: 40px;
+        right: 94px;
+        top: unset;
+        bottom: 31px;
+    }
+    &:nth-child(4) {
+        display: none;
+    }
+    }
+    }
+}
+@media (max-width: 1240px) {
+    .fixed-container {
+        max-width: 945px;
+    }
+    .header {
+    .fixed-container > nav {
+        display: none;
+    }
+    &__mobmenu-button {
+        display: inline-block;
+    }
+    }
+    .about-worker {
+    &__name {
+        font-size: 54px;
+        margin-top: 182px;
+    }
+    &__skill {
+        margin: 22px 0 45px;
+    }
+    &__button {
+        width: 320px;
+        height: 68px;
+    }
+    &__face {
+        background-image: url("../img/mobellipse.svg");
+        background-position: 277px 113px;
+    &-pic {
+        margin-left: 351px;
+    }
+    }
+    &__background-symbol {
+    &:nth-child(1) {
+        left: 79px;
+        top: 81px;
+    }
+    &:nth-child(2) {
+        left: 58px;
+        top: unset;
+        bottom: 73px;
+    }
+    &:nth-child(3) {
+        left: 359px;
+        bottom: 138px;
+    }
+    &:nth-child(4) {
+        left: unset;
+        right: 68px;
+        top: 75px;
+    }
+    &:nth-child(5) {
+        left: unset;
+        bottom: 179px;
+        right: 67px;
+    }
+    &:nth-child(6) {
+        display: inline;
+    }
+    }
+    }
+    .about-skills {
+    &__tittle {
+        margin-left: -27px;
+    }
+    &__list {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        padding: 0 51px;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    li {
+        max-width: 334px;
+    &:nth-child(n+3) {
+        margin-top: 58px;
+    }
+    }
+    }
+    &__button {
+        width: 320px;
+        height: 68px;
+        margin-top: 73px;
+    }
+    }
+    .about-product {
+    &__button {
+        width: 320px;
+        height: 68px;
+    }
+    }
+    .owl-carousel {
+        margin-bottom: 84px;
+    }
+    .carousel-item {
+        height: 410px;
+    }
+    #js-carousel-1 {
+    .owl-dots {
+        margin-top: 89px;
+    .owl-dot {
+        zoom: 2;
+    }
+    }    
+    }
+    .about-price {
+    .fixed-container {
+        padding: 76px 0;
+    }
+    &__background-symbol {
+    &:nth-child(1) {
+        font-size: 32px;
+        left: 157px;
+        top: 21px;
+    }
+    &:nth-child(2) {
+        display: none;
+    }
+    &:nth-child(5) {
+        font-size: 24px;
+        right: 454px;
+        bottom: 31px;
+    }
+    }
+    }
+    .footer-stuff {
+    .fixed-container {
+        margin: 100px auto 77px;
+    }
+    &__feedback {
+        margin: 0;
+    }
+    }
+    address {
+        margin-left: 55px;
+    }
+}
+@media (max-width: 970px) {
+    .fixed-container {
+        max-width: 720px;
+    }
+    .about-worker {
+    &__name {
+        font-size: 35px;
+    }
+    &__skill {
+        font-size: 18px;
+        margin: 8px 0 23px;
+        line-height: 1.5;
+    }
+    }
+    .about-skills {
+    &__tittle {
+        font-size: 35px;
+        margin-left: 0;
+    }
+    &__list {
+        padding: 0;
+    }
+    }
+    .about-product {
+    &__tittle {
+        font-size: 35px;
+    }
+    }
+    .about-price {
+    &__tittle {
+        font-size: 35px;
+    }
+    &__text {
+        font-size: 16px;
+    }
+    }
+    
+}
+@media (max-width: 830px) {
+    .fixed-container {
+        max-width: 630px;
+    }
+    .about-worker {
+        min-height: 336px;
+    &__name {
+        margin-top: 75px;
+    }
+    &__skill {
+        max-width: 300px;
+    }
+    &__button {
+        width: 280px;
+        height: 55px;
+        font-size: 16px;
+    }
+    &__face {
+        min-width: 350px;
+        background-image: url("../img/lil_mobellipse.svg");
+        background-position: 3px 19px; 
+    &-pic {
+        display: none;
+    }
+    }
+    &__mobface {
+    &-pic {
+        display: inline;
+        margin-left: 65px;
+    }
+    }
+    &__background-symbol {
+    &:nth-child(2) {
+        bottom: 10px;
+    }
+    &:nth-child(6) {
+        top: 10px;
+    }
+    }
+    }
+    .about-skills {
+    &__list {
+    li {
+        max-width: 250px;
+    }
+    p {
+        font-size: 16px;
+    }
+    }
+    &__landing {
+    &-icon {
+        width: 61px;
+        height: 57px;
+        background-image: url('../img/lil_function.png');
+        background-position: -10px -91px;
+    }
+    }
+    &__adapt {
+    &-icon {
+        width: 61px;
+        height: 56px;
+        background-image: url('../img/lil_function.png');
+        background-position: -171px -10px;
+    }
+    }
+    &__frontend {
+    &-icon {
+        width: 60px;
+        height: 60px;
+        background-image: url('../img/lil_function.png');
+        background-position: -91px -10px;
+    }
+    }
+    &__reboot {
+    &-icon {
+        width: 61px;
+        height: 61px;
+        background-image: url('../img/lil_function.png');
+        background-position: -11px -10px;
+    }
+    }
+    &__button {
+        width: 280px;
+        height: 55px;
+        font-size: 16px;
+        margin: 34px 0 51px;
+    }
+    }
+    .about-product {
+    &__button {
+        width: 280px;
+        height: 55px;
+        font-size: 16px;
+    }
+    }
+    .about-price {
+    .fixed-container {
+        padding: 43px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    &__tittle {
+        font-size: 28px;
+        line-height: 1.4;
+        margin: 0 0 36px 0;
+    }
+    &__star {
+        margin-top: 2px;
+    }
+    &__text {
+        font-size: 15px;
+        max-width: 500px;
+        line-height: 2;
+        margin-left: 5px;
+    }
+    br {
+        display: none;
+    }
+    &__background-symbol {
+    &:nth-child(1) {
+        top: 10px;
+    }
+    }
+    }
+    .footer-stuff {
+    .fixed-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        margin: 39px auto 47px;
+        padding: 0 10px;
+    }
+    &__feedback {
+    &-button {
+        width: 280px;
+        height: 55px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #ff4e2e;
+        border: none;
+        margin: 25px 0 19px;
+    }
+    }
+    }
+}
+@media (max-width: 650px) {
+    .fixed-container {
+        max-width: 515px;
+    }
+    .about-worker {
+    &__mobface {
+    &-pic {
+        margin-left: 100px;
+    }    
+    }
+    }
+    .owl-carousel {
+        margin: 42px 0 40px;
+    }
+    .carousel-item {
+        height: 290px;
+    }
+    #js-carousel-1 {
+    .owl-dots {
+        margin-top: 39px;
+    .owl-dot {
+        zoom: 1;
+    }    
+    }    
+    }
+}
+@media (max-width: 540px) {
+    .fixed-container {
+        max-width: 280px;
+    }
+    .header {
+    &__mobmenu {
+    &-button {
+        width: 24px;
+        height: 18px;
+        background-image: url('../img/mobmenu2.png');
+        margin-top: 30px;
+    }
+    }
+    &__feedback {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    &-phone {
+        font-size: 18px;
+        margin-top: 28px;
+    }
+    &-button {
+        border: none;
+        width: 26px;
+        height: 26px;
+        font-size: 0;
+        background-image: url('../img/call-answer.png');
+        margin: 26px 0 0 34px;
+    }
+    }
+    }
+    .about-worker {
+    .fixed-container {
+        margin-top: 372px;
+        text-align: center;
+    }
+    &__name {
+        font-size: 30px;
+        margin-top: 0;
+    }
+    &__skill {
+        font-size: 16px;
+        margin: 8px 0 23px;
+        line-height: 1.5;
+    }
+    &__mobface {
+    &-pic {
+        margin: 27px 0 0 77px;
+    }
+    }
+    &__background-symbol {
+    &:nth-child(1) {
+        font-size: 24px;
+        left: 49px;
+        top: 49px;
+    }
+    &:nth-child(2) {
+        font-size: 28px;
+        left: 37px;
+        top: 152px;
+        bottom: unset;
+    }
+    &:nth-child(3) {
+        font-size: 18px;
+        transform: rotate(-31deg);
+        left: 173px;
+        top: 29px;
+        bottom: unset;
+    }
+    &:nth-child(4) {
+        display: none;
+    }
+    &:nth-child(5) {
+        font-size: 15px;
+        right: 38px;
+        top: 93px;
+        bottom: unset;
+    }
+    &:nth-child(6) {
+        display: none;
+    }
+    }
+    }
+    .about-skills {
+    &__tittle {
+        font-size: 30px;
+        margin: 43px 0 0 ;
+    }
+    &__list {
+        padding: 0 31px;
+    li {
+    &:nth-child(n+3) {
+        margin: 0;
+    }
+    }
+    p {
+        margin-top: 13px;
+    }
+
+    }
+    .about-skills {
+    &__landing {
+    &-icon {
+        margin-top: 44px;
+    }
+    }
+    &__adapt {
+    &-icon {
+        margin-top: 33px;
+    }
+    &-text {
+        margin-top: 18px;
+    }
+    }
+    &__frontend {
+    &-icon {
+        margin-top: 33px;
+    }
+    }
+    &__reboot {
+    &-icon {
+        margin-top: 34px;
+    }
+    &-text {
+        margin-top: 14px;
+    }
+    }
+    }
+
+    }
+    .about-product {
+        padding: 18px 0 51px;
+    &__tittle {
+        font-size: 30px;
+    }
+    }
+    .about-price {
+    &__text {
+        max-width: 255px;
+    }
+    &__background-symbol {
+        display: none;
+    }
+    }
+    .footer-stuff {
+    .fixed-container {
+        padding: 0;
+    }
+    &__item {
+        margin-bottom: 14px;
+    }
+    &__link {
+        font-size: 15px;
+    }
+    &__phone {
+        margin-bottom: 22px;
+    &-icon {
+        font-size: 15px;
+    }
+    &-nubmer {
+        font-size: 20px;
+    }
+    }
+    &__mail {
+    &-icon {
+        font-size: 15px;
+        margin-right: 19px;
+    }
+    &-link {
+        font-size: 20px;
+    }
+    }
+    }
+    address {
+        margin: 26px 0 0 0;
+    }
+    .copyright {
+        font-size: 12px;
+        padding: 18px 0;
+    }
+    .back-call {
+        height: 430px;
+        width: 320px;
+    }
+
+}
+@media (max-width: 320px) {
+    .about-worker {
+    &__face {
+        min-width: 320px;
+        background-position: -58px 64px;
+    }
+    }
+}
