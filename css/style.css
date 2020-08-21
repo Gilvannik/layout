@@ -106,6 +106,13 @@ html, body {
   margin-right: 33px;
 }
 
+.header__menu-link:hover {
+  color: #fc557c;
+  border-bottom: 1px solid #fc557c;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .header__popup-menu {
   display: none;
   width: 100%;
@@ -134,11 +141,24 @@ html, body {
   color: black;
 }
 
+.header__popup-menu-link:hover {
+  color: #fc557c;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .header__feedback-phone {
   text-decoration: none;
   color: black;
   font-size: 25px;
   font-weight: bold;
+}
+
+.header__feedback-phone:hover {
+  color: #fc557c;
+  border-bottom: 1px solid #fc557c;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .header__feedback-button {
@@ -154,6 +174,14 @@ html, body {
   width: 207px;
   height: 45px;
   cursor: pointer;
+}
+
+.header__feedback-button:hover {
+  border-color: #fbfbfb;
+  background-color: #f53f4f;
+  color: #fbfbfb;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .header__feedback-holder {
@@ -215,6 +243,14 @@ html, body {
   font-size: 18px;
   outline: none;
   cursor: pointer;
+}
+
+.about-worker__button:hover {
+  color: #ff4e2e;
+  background-color: #ffffff;
+  border: 1px solid #ff4e2e;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .about-worker__face {
@@ -390,6 +426,14 @@ html, body {
   margin: 73px 0 103px;
 }
 
+.about-skills__button:hover {
+  color: #ff4e2e;
+  background-color: #ffffff;
+  border: 1px solid #ff4e2e;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .about-product {
   padding: 45px 0 101px;
   background-color: #fbfbfb;
@@ -418,6 +462,14 @@ html, body {
   cursor: pointer;
 }
 
+.about-product__button:hover {
+  color: #ff4e2e;
+  background-color: #ffffff;
+  border: 1px solid #ff4e2e;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 /* карусель */
 .owl-carousel {
   margin-top: 100px;
@@ -426,8 +478,10 @@ html, body {
 
 .carousel-item {
   height: 350px;
-  background: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
-  background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+}
+
+.carousel-item a {
+  text-decoration: none;
 }
 
 #js-carousel-1 .owl-nav .owl-prev {
@@ -475,6 +529,12 @@ html, body {
 #js-carousel-1 .active span {
   background: -webkit-gradient(linear, left bottom, right top, from(#ff8f5a), to(#ff2f96));
   background: linear-gradient(to top right, #ff8f5a, #ff2f96);
+}
+
+#js-carousel-1 h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: #a7afc2;
 }
 
 /* карусель */
@@ -581,6 +641,13 @@ html, body {
   font-size: 18px;
 }
 
+.footer-stuff__link:hover {
+  color: #fc557c;
+  border-bottom: 1px solid #fc557c;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .footer-stuff__phone {
   margin-bottom: 31px;
 }
@@ -589,6 +656,13 @@ html, body {
   text-decoration: none;
   color: black;
   font-size: 25px;
+}
+
+.footer-stuff__phone-nubmer:hover {
+  color: #fc557c;
+  border-bottom: 1px solid #fc557c;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .footer-stuff__phone-icon {
@@ -603,6 +677,13 @@ html, body {
   text-decoration: none;
   color: black;
   font-size: 25px;
+}
+
+.footer-stuff__mail-link:hover {
+  color: #fc557c;
+  border-bottom: 1px solid #fc557c;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .footer-stuff__mail-icon {
@@ -630,6 +711,14 @@ html, body {
   width: 248px;
   height: 45px;
   cursor: pointer;
+}
+
+.footer-stuff__feedback-button:hover {
+  border-color: #fbfbfb;
+  background-color: #f53f4f;
+  color: #fbfbfb;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 address {
@@ -710,6 +799,7 @@ address {
   padding: 110px 50px 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  position: relative;
 }
 
 .back-call label {
@@ -740,6 +830,23 @@ address {
   background-color: transparent;
   outline: none;
   margin: 36px auto;
+  cursor: pointer;
+}
+
+.back-call__close-button {
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/close-button.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  color: red;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  outline: none;
+  cursor: pointer;
 }
 
 .disable-scroll {
@@ -917,6 +1024,9 @@ address {
   .about-price__text {
     font-size: 16px;
   }
+  .carousel-item {
+    height: 330px;
+  }
 }
 
 @media (max-width: 830px) {
@@ -1042,6 +1152,14 @@ address {
     border: none;
     margin: 25px 0 19px;
   }
+  .footer-stuff__feedback-button:hover {
+    color: #ff4e2e;
+    background-color: #ffffff;
+    border: 1px solid #ff4e2e;
+  }
+  .carousel-item {
+    height: 310px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -1056,6 +1174,9 @@ address {
   }
   .carousel-item {
     height: 290px;
+  }
+  #js-carousel-1 h3 {
+    font-size: 16px;
   }
   #js-carousel-1 .owl-dots {
     margin-top: 39px;

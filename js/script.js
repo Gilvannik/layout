@@ -5,7 +5,7 @@ $(document).ready(function(){
         /* autoplay: true, 
         autoplayTimeout: 3000, */
         responsive: {
-            650: {
+            540: {
                 items: 2,
                 margin: 20,
             },
@@ -41,6 +41,16 @@ $(document).ready(function(){
 	window.scroll({top: pagePosition, left: 0});
 	body.removeAttribute('data-position');
 }
+    $('.back-call__close-button').on('click', function(){
+        enableScroll();
+        $('.header__feedback-holder').css('display', 'none');
+    })
+    $('.header__feedback-holder').on('click', function(event){
+        if (event.target == this) {
+        enableScroll();
+        $('.header__feedback-holder').css('display', 'none');    
+        }
+    });
     $('.header__feedback-button').on('click', function(){
         if ($('body').hasClass('disable-scroll')) {
             enableScroll();

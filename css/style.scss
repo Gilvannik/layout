@@ -49,7 +49,11 @@ html, body {
     text-decoration: none;
     color: black;
     margin-right: 33px;
-    
+&:hover {
+    color: #fc557c;
+    border-bottom: 1px solid #fc557c;
+    transition-duration: 1s;
+}   
 }
 }
 &__popup {
@@ -74,6 +78,10 @@ html, body {
 &-link {
     text-decoration: none;
     color: black;
+&:hover {
+    color: #fc557c;
+    transition-duration: 1s;
+}   
 }
 }    
 }
@@ -83,6 +91,11 @@ html, body {
     color: black;
     font-size: 25px;
     font-weight: bold;
+&:hover {
+    color: #fc557c;
+    border-bottom: 1px solid #fc557c;
+    transition-duration: 1s;
+}  
 }
 &-button {
     margin: 29px 0 0 24px;
@@ -97,6 +110,12 @@ html, body {
     width: 207px;
     height: 45px;
     cursor: pointer;
+&:hover {
+    border-color: #fbfbfb;
+    background-color: #f53f4f;
+    color: #fbfbfb;
+    transition-duration: 1s;
+}
 }
 &-holder {
     display: none;
@@ -148,6 +167,12 @@ html, body {
     font-size: 18px;
     outline: none;
     cursor: pointer;
+&:hover {
+    color: #ff4e2e;
+    background-color: #ffffff;
+    border: 1px solid #ff4e2e;
+    transition-duration: 1s;
+}
 }
 &__face {
     background-image: url('../img/ellipse.svg');
@@ -293,10 +318,13 @@ p {
     outline: none;
     cursor: pointer;
     margin: 73px 0 103px;
+&:hover {
+    color: #ff4e2e;
+    background-color: #ffffff;
+    border: 1px solid #ff4e2e;
+    transition-duration: 1s;
 }
-
-
-
+}
 }
 .about-product {
     padding: 45px 0 101px;
@@ -320,6 +348,12 @@ p {
     font-size: 18px;
     outline: none;
     cursor: pointer;
+&:hover {
+    color: #ff4e2e;
+    background-color: #ffffff;
+    border: 1px solid #ff4e2e;
+    transition-duration: 1s;
+}
 }
 }
 /* карусель */
@@ -329,9 +363,11 @@ p {
 }
 .carousel-item {
     height: 350px;
-    background: $gradient;
+a {
+    text-decoration: none;
 }
-#js-carousel-1{
+}
+#js-carousel-1{ 
 .owl-nav {
     .owl-prev {
     position: absolute;
@@ -369,12 +405,17 @@ p {
     opacity: unset;
     font-size: 0;
 }
-}  
+} 
 .active {
     outline: none;
 span {
     background: $gradient;
 }
+}
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #a7afc2;
 }
 }
 /* карусель */
@@ -460,6 +501,11 @@ span {
     text-decoration: none;
     color: #8993ad;
     font-size: 18px;
+&:hover {
+    color: #fc557c;
+    border-bottom: 1px solid #fc557c;
+    transition-duration: 1s;
+}
 }
 &__phone {
     margin-bottom: 31px;
@@ -467,6 +513,11 @@ span {
     text-decoration: none;
     color: black;
     font-size: 25px;
+&:hover {
+    color: #fc557c;
+    border-bottom: 1px solid #fc557c;
+    transition-duration: 1s;
+}
 }
 &-icon {
     font-family: fontello;
@@ -481,6 +532,11 @@ span {
     text-decoration: none;
     color: black;
     font-size: 25px;
+&:hover {
+    color: #fc557c;
+    border-bottom: 1px solid #fc557c;
+    transition-duration: 1s;
+}
 }
 &-icon {
     font-family: fontello;
@@ -505,6 +561,12 @@ span {
     width: 248px;
     height: 45px;
     cursor: pointer;
+&:hover {
+    border-color: #fbfbfb;
+    background-color: #f53f4f;
+    color: #fbfbfb;
+    transition-duration: 1s;
+}
 }
 }
 }
@@ -573,6 +635,7 @@ a {
     border-radius: 90px;
     padding: 110px 50px 0;
     box-sizing: border-box;
+    position: relative;
 label {
     color: white;
     margin-top: 13px;
@@ -597,6 +660,22 @@ input {
     background-color: transparent;
     outline: none;
     margin: 36px auto;
+    cursor: pointer;
+}
+&__close-button {
+    width: 25px;
+    height: 25px;
+    background-image: url("../img/close-button.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    color: red;
+    position: absolute;
+    top: 60px;
+    right: 60px;
+    outline: none;
+    cursor: pointer;
 }
 }
 .disable-scroll {

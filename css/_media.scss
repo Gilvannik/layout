@@ -195,6 +195,10 @@
         font-size: 16px;
     }
     }
+    .carousel-item {
+        height: 330px;
+    }
+    
     
 }
 @media (max-width: 830px) {
@@ -343,8 +347,16 @@
         background-color: #ff4e2e;
         border: none;
         margin: 25px 0 19px;
+    &:hover {
+    color: #ff4e2e;
+    background-color: #ffffff;
+    border: 1px solid #ff4e2e;
     }
     }
+    }
+    }
+    .carousel-item {
+        height: 310px;
     }
 }
 @media (max-width: 650px) {
@@ -365,6 +377,9 @@
         height: 290px;
     }
     #js-carousel-1 {
+    h3 {
+        font-size: 16px;
+    }
     .owl-dots {
         margin-top: 39px;
     .owl-dot {

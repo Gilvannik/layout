@@ -2,12 +2,16 @@
 <html lang="ru">
 
 <head>
-  <title>Разработка</title>
+  <title>Дмитрий Алексеев - Frontend-разработчик и веб-верстальщик</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="owl/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="owl/assets/owl.theme.default.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="owl/owl.carousel.min.js"></script>
   <script src="js/script.js"></script>
@@ -17,6 +21,7 @@
   <header class="header">
     <div class="header__feedback-holder">
       <form action="" class="back-call" id="back-call">
+        <button type="button" class="back-call__close-button" aria-label="close"></button>
         <label for="back-call__name">Имя</label>
         <input type="text" name="name" class="back-call__name" id="back-call__name">
         <label for="back-call__tel">Телефон</label>
@@ -27,7 +32,7 @@
       </form>
     </div>
     <div class="fixed-container">
-      <button class="header__mobmenu-button"></button>
+      <button class="header__mobmenu-button" aria-label="Menu"></button>
       <nav>
         <ul class="header__menu">
           <li class="header__menu-item"><a href="#" class="header__menu-link link-skills">Услуги</a></li>
@@ -45,7 +50,7 @@
         </nav>
       </div>
       <div class="header__feedback">
-        <a href="tel:+74999955577" class="header__feedback-phone">+7 (499) 995-55-77</a>
+        <a href="tel:+74999955577" class="header__feedback-phone" aria-label="phone">+7 (499) 995-55-77</a>
         <button class="header__feedback-button">Заказать звонок</button>
       </div>
     </div>
@@ -96,13 +101,15 @@
       <div class="fixed-container">
         <h2 class="about-product__tittle">Примеры моих работ</h2>
         <div id="js-carousel-1" class="owl-carousel owl-theme">
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
+          <div class="carousel-item">
+            <div class="product-1"><a href="#"><img src="img/product_1.png" alt="Первый продукт"><h3>Сайт психолога Веры Антоновой</h3></a></div>
+          </div>
+          <div class="carousel-item">
+            <div class="product-2"><a href="#"><img src="img/product_2.png" alt="Второй продукт"><h3>Сайт магазина детской одежды</h3></a></div>
+          </div>
+          <div class="carousel-item">
+            <div class="product-3"><a href="#"><img src="img/product_3.png" alt="Третий продукт"><h3>Сайт магазина "Рыболов"</h3></a></div>
+          </div>
           <div class="carousel-item"></div>
         </div>
         <button class="about-product__button">Заказать проект</button>
@@ -134,19 +141,19 @@
         </nav>
         <address>
           <div class="footer-stuff__phone"><i class="footer-stuff__phone-icon">&#xe801;</i>
-            <a href="tel:+74999957755" class="footer-stuff__phone-nubmer">+7 (499) 995-77-55</a>
+            <a href="tel:+74999957755" class="footer-stuff__phone-nubmer" aria-label="phone">+7 (499) 995-77-55</a>
           </div>
           <div class="footer-stuff__mail"><i class="footer-stuff__mail-icon">&#xe800;</i>
-            <a href="mailto:dmitry@alekseev.com" class="footer-stuff__mail-link">dmitry@alekseev.com</a></div>
+            <a href="mailto:dmitry@alekseev.com" class="footer-stuff__mail-link" aria-label="mail">dmitry@alekseev.com</a></div>
         </address>
         <div class="footer-stuff__feedback">
           <button class="footer-stuff__feedback-button">Заказать звонок</button>
           <div class="footer-stuff__social-network social-network">
             <ul class="social-network__list">
-              <li class="social-network__item"><a class="social-network__vk" href="#"></a></li>
-              <li class="social-network__item"><a class="social-network__fb" href="#"></a></li>
-              <li class="social-network__item"><a class="social-network__tw" href="#"></a></li>
-              <li class="social-network__item"><a class="social-network__insta" href="#"></a></li>
+              <li class="social-network__item"><a class="social-network__vk" href="#" aria-label="vk"></a></li>
+              <li class="social-network__item"><a class="social-network__fb" href="#" aria-label="facebook"></a></li>
+              <li class="social-network__item"><a class="social-network__tw" href="#" aria-label="twitter"></a></li>
+              <li class="social-network__item"><a class="social-network__insta" href="#" aria-label="instagram"></a></li>
             </ul>
           </div>
         </div>
