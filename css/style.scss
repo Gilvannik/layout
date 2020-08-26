@@ -597,6 +597,10 @@ a {
     background-image: url("../img/social.png");
     background-repeat: no-repeat;
     background-position: -10px -10px;
+&:hover {
+    background-image: url("../img/social_hover.png");
+    transition-duration: 1s;
+}
 }
 &__fb {
     width: 16px;
@@ -604,6 +608,10 @@ a {
     background-image: url("../img/social.png");
     background-repeat: no-repeat;
     background-position: -110px -10px;
+&:hover {
+    background-image: url("../img/social_hover.png");
+    transition-duration: 1s;
+}
 }
 &__tw {
     width: 29px;
@@ -611,6 +619,10 @@ a {
     background-image: url("../img/social.png");
     background-repeat: no-repeat;
     background-position: -10px -51px;
+&:hover {
+    background-image: url("../img/social_hover.png");
+    transition-duration: 1s;
+}
 }
 &__insta {
     width: 25px;
@@ -618,6 +630,10 @@ a {
     background-image: url("../img/social.png");
     background-repeat: no-repeat;
     background-position: -65px -10px;
+&:hover {
+    background-image: url("../img/social_hover.png");
+    transition-duration: 1s;
+}
 }
 }
 .copyright {

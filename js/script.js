@@ -2,8 +2,8 @@ $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
         items: 1,
         loop: true,
-        /* autoplay: true, 
-        autoplayTimeout: 3000, */
+        autoplay: true, 
+        autoplayTimeout: 3000,
         responsive: {
             540: {
                 items: 2,
@@ -58,6 +58,8 @@ $(document).ready(function(){
             disableScroll();
         }
         $('.header__feedback-holder').css('display', 'flex');
+        $('.back-call__email-label').css('display', 'none');
+        $('.back-call__email').css('display', 'none');
     });
     $('.about-worker__button').on('click', function(){
         if ($('body').hasClass('disable-scroll')) {
@@ -96,21 +98,26 @@ $(document).ready(function(){
             disableScroll();
         }
         $('.header__feedback-holder').css('display', 'flex');
+        $('.back-call__email-label').css('display', 'none');
+        $('.back-call__email').css('display', 'none');
     }); /* Обратная связь и отключение скролла  */
 
     $('.link-skills').on('click', function(event){
         event.preventDefault();
         let top = $('.about-skills').offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
+        $('.header__popup-menu').slideToggle();
     });
     $('.link-product').on('click', function(event){
         event.preventDefault();
         let top = $('.about-product').offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
+        $('.header__popup-menu').slideToggle();
     });
     $('.link-price').on('click', function(event){
         event.preventDefault();
         let top = $('.about-price').offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
+        $('.header__popup-menu').slideToggle();
     }); /* Скролл к секциям сайта */
 })

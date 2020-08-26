@@ -752,12 +752,24 @@ address {
   background-position: -10px -10px;
 }
 
+.social-network__vk:hover {
+  background-image: url("../img/social_hover.png");
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .social-network__fb {
   width: 16px;
   height: 28px;
   background-image: url("../img/social.png");
   background-repeat: no-repeat;
   background-position: -110px -10px;
+}
+
+.social-network__fb:hover {
+  background-image: url("../img/social_hover.png");
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .social-network__tw {
@@ -768,12 +780,24 @@ address {
   background-position: -10px -51px;
 }
 
+.social-network__tw:hover {
+  background-image: url("../img/social_hover.png");
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
 .social-network__insta {
   width: 25px;
   height: 25px;
   background-image: url("../img/social.png");
   background-repeat: no-repeat;
   background-position: -65px -10px;
+}
+
+.social-network__insta:hover {
+  background-image: url("../img/social_hover.png");
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
 }
 
 .copyright {
