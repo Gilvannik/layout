@@ -22,9 +22,13 @@ $(document).ready(function(){
         $('.header__popup-menu').slideToggle();
     });
     $(window).resize(function() {
-        if($(window).width() >= 1240){
-            $('.header__popup-menu').hide();
+        if($(window).width() > 1240){
+            $('.header__popup-menu').css('display', 'block');
         };
+        if($(window).width() <= 1240){
+            $('.header__popup-menu').css('display', 'none');
+        };
+
     }); /* Меню */
     
      let body = document.body;
@@ -106,18 +110,24 @@ $(document).ready(function(){
         event.preventDefault();
         let top = $('.about-skills').offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
-        $('.header__popup-menu').slideToggle();
+        if($(window).width() <= 1240 && $(this).parents().hasClass('header__popup-menu-list')) {
+            $('.header__popup-menu').slideToggle();
+        };
     });
     $('.link-product').on('click', function(event){
         event.preventDefault();
         let top = $('.about-product').offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
-        $('.header__popup-menu').slideToggle();
+        if($(window).width() <= 1240 && $(this).parents().hasClass('header__popup-menu-list')) {
+            $('.header__popup-menu').slideToggle();
+        };
     });
     $('.link-price').on('click', function(event){
         event.preventDefault();
         let top = $('.about-price').offset().top;
         $('body,html').animate({scrollTop: top}, 1500);
-        $('.header__popup-menu').slideToggle();
+        if($(window).width() <= 1240 && $(this).parents().hasClass('header__popup-menu-list')) {
+            $('.header__popup-menu').slideToggle();
+        };
     }); /* Скролл к секциям сайта */
 })

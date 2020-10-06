@@ -28,8 +28,32 @@
         max-width: 945px;
     }
     .header {
-    .fixed-container > nav {
-        display: none;
+    &__popup {
+            &-menu {
+                display: none;
+                width: 100%;
+                height: 176px;
+                position: absolute;
+                top: 79px;
+                z-index: 1;
+                background-color: #ffffff39;
+                backdrop-filter: blur(4px);
+                font-size: 25px;
+            &-list {
+                display: block;
+            }
+            &-item {
+                margin-bottom: 18px;
+                border-bottom: 1px solid #f82370;
+            }
+            &-link {
+                text-decoration: none;
+                color: black;
+            &:hover {
+                border: none;
+            }   
+            }
+            }    
     }
     &__mobmenu-button {
         display: inline-block;
@@ -223,14 +247,9 @@
         background-image: url("../img/lil_mobellipse.svg");
         background-position: 3px 19px; 
     &-pic {
-        display: none;
-    }
-    }
-    &__mobface {
-    &-pic {
-        display: inline;
-        margin-left: 65px;
-    }
+        margin-left: 100px;
+    }    
+ 
     }
     &__background-symbol {
     &:nth-child(2) {
@@ -363,13 +382,6 @@
     .fixed-container {
         max-width: 515px;
     }
-    .about-worker {
-    &__mobface {
-    &-pic {
-        margin-left: 100px;
-    }    
-    }
-    }
     .owl-carousel {
         margin: 42px 0 40px;
     }
@@ -416,6 +428,12 @@
         font-size: 0;
         background-image: url('../img/call-answer.png');
         margin: 26px 0 0 34px;
+
+    &:hover {
+        background-color: unset;
+        transform: translateY(-10px);
+        transition-duration: 1s;
+    }
     }
     }
     }
@@ -433,7 +451,7 @@
         margin: 8px 0 23px;
         line-height: 1.5;
     }
-    &__mobface {
+    &__face {
     &-pic {
         margin: 27px 0 0 77px;
     }
